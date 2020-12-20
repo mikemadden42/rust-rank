@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Find most popular rust cli tools based on downloads."""
 
 # Based upon script on this page:
 # https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692
