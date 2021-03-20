@@ -5,7 +5,7 @@ setup:
 
 freeze:
 	. venv/bin/activate ; \
-	pip3 install --upgrade beautifulsoup4 pandas ; \
+	pip3 install --upgrade beautifulsoup4 pandas urllib3 ; \
 	pip3 freeze > requirements.txt ; \
 
 run:
