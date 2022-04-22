@@ -24,8 +24,8 @@ for div in divs:
 metas = soup.select(".meta")
 downloads = []
 for meta in metas:
-    if (mytitle := meta.find(class_="downloads")) :
-        parts = str(mytitle).split()[2].split('="')[1]
+    if title := meta.find(class_="downloads"):
+        parts = str(title).split()[2].split('="')[1]
         downloads.append(int(parts))
     else:
         # some libraries do not have downloads class
