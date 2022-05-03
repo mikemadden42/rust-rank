@@ -4,9 +4,9 @@
 # Based upon script on this page:
 # https://towardsdatascience.com/awesome-rust-powered-command-line-utilities-b5359c38692
 
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 
 URL = "https://lib.rs/command-line-utilities"
 
