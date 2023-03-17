@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 URL = "https://lib.rs/command-line-utilities"
 
-page = requests.get(URL)
+page = requests.get(URL, timeout=10)
 soup = BeautifulSoup(page.content, "html.parser")
 
 # find all package names
